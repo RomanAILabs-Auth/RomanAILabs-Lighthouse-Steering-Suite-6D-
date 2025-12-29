@@ -1,6 +1,7 @@
 # RomanAILabs WhiteHole Steering Module (FCES + WhiteHole + RAIL-FPMF 6D)
 Copyright Daniel Harding - RomanAILabs  
 Credits: OpenAI GPT-5.2 Thinking
+#romanailabs@gmail.com
 
 A **drop-in runtime steering module** for *any* LLM runner that can expose a **per-token logits hook**.  
 It computes an online control signal from sampling dynamics and applies **bounded, clipped logits shaping** (plus optional EOS handling) to reduce degeneration (loops / stuck low-entropy / over-dominant top token) while staying measurable and runner-agnostic.
