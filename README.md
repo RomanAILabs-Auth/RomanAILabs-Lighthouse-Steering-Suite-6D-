@@ -31,7 +31,7 @@ This file ships with a tiny internal self-test. It verifies:
 Run it:
 
 ```bash
-python3 "RomanAILabs Whitehole Steering Module.py"
+python3 "RomanAILabs_Whitehole_Steering_Module.py"
 ```
 
 If you renamed it to the recommended module name:
